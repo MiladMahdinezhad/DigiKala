@@ -1,0 +1,35 @@
+.slider {
+  max-height: 400px;
+  position: relative;
+  &__pic {
+    cursor: grab;
+    @include responsive(el) {
+      min-height: 268px;
+      object-fit: cover;
+    }
+  }
+  &__pagination {
+    position: absolute;
+    bottom: 3rem;
+  }
+  &__navigation {
+    position: absolute;
+    bottom: 3rem;
+    right: 10rem;
+    width: 10rem;
+    &-item {
+      width: 3.5rem;
+      height: 3.5rem;
+      background-color: white;
+      border-radius: 100%;
+      color: $subtitle;
+      border: 1px solid $subtitle;
+      @include responsive(l) {
+        display: none;
+      }
+      &::after {
+        font-size: $fs-5;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.navmob {
+  @include responsive(l) {
+    display: flex !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    right: 0 !important;
+  }
+}

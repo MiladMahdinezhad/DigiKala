@@ -1,0 +1,10 @@
+.supermarket {
+  &__item {
+    width: 7.5rem;
+    height: 7.5rem;
+    cursor: pointer;
+    &-text {
+      right: -0.5rem;
+    }
+  }
+}

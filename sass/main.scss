@@ -1,0 +1,38 @@
+/*!- Utilities Directory ----*/
+@import "utilities/functions";
+@import "utilities/variables";
+@import "utilities/mixins";
+
+/*!- Bootstrap Directory ----*/
+@import "custom";
+/*!- Base Directory ----*/
+
+@import "base/typography";
+@import "base/defaults";
+@import "base/class";
+
+/*!- Vendor Directory ----*/
+
+/*!- Themes Directory ----*/
+
+/*!- Layout Directory ----*/
+@import "layouts/header";
+@import "layouts/story";
+@import "layouts/slider";
+@import "layouts/brands";
+@import "layouts/discountslider";
+@import "layouts/supermarket";
+@import "layouts/category";
+@import "layouts/popularbrands";
+@import "layouts/digiclub";
+@import "layouts/footer";
+@import "layouts/random";
+@import "layouts/topsale";
+@import "layouts/chosen";
+@import "layouts/blog";
+@import "layouts/navmob";
+@import "layouts/footermobile";
+
+/*!- Components Directory ----*/
+/*!- Pages Directory ----*/
+@import "pages/home";

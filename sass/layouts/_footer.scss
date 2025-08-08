@@ -1,0 +1,46 @@
+.footer {
+  &__main {
+    @include responsive(el) {
+      width: 95% !important;
+    }
+  }
+  @include responsive(l) {
+    display: none;
+  }
+  &__app {
+    @include responsive(eel) {
+      flex-direction: column !important;
+      row-gap: 2rem !important;
+    }
+    &-icons {
+      @include responsive(eel) {
+        width: 80% !important;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+      }
+    }
+    &-logo {
+      @include responsive(eel) {
+        width: 35% !important;
+      }
+    }
+  }
+  &__namad {
+    padding-bottom: 6rem;
+  }
+
+  &__namadimage {
+    width: 10rem;
+    height: 10rem;
+  }
+  &__namadtext {
+    max-height: 15rem;
+    line-height: 2.6rem;
+    text-align: justify;
+    &-expander {
+      right: 0.9rem;
+      bottom: -3.5rem;
+    }
+  }
+}

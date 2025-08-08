@@ -1,0 +1,15 @@
+.blog {
+  &__main {
+    @include responsive(l) {
+      row-gap: 2rem;
+    }
+    &-subject {
+      @include responsive(l) {
+        font-size: 1.6rem !important;
+      }
+      @include responsive(m) {
+        font-size: 2rem !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+//! override colors
+$primary: #941b80;
+$secondary: #19bed1;
+$tertiary: #ef394e;
+$subtitle: #818489;
+$search: #eaeaec;
+$storytext: #242651;
+$green: #029b4a;
+$gold: gold;
+//! Color Maps
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "subtitle": $subtitle,
+  "search": $search,
+  "storytext": $storytext,
+  "green": $green,
+  "gold": $gold,
+);
+
+// //! Font Size
+$fs-1: 3rem;
+$fs-2: 2.5rem;
+$fs-3: 2rem;
+$fs-4: 1.6rem;
+$fs-5: 1.4rem;
+$fs-6: 1.2rem;
+
+//! Font Family
+
+//! width

@@ -1,0 +1,9 @@
+.footermobile {
+  @include responsive(l) {
+    display: flex !important;
+  }
+  &__logo {
+    max-width: 5rem;
+    height: auto;
+  }
+}

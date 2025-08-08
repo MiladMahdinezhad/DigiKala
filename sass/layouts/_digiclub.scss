@@ -1,0 +1,56 @@
+.digiclub {
+  &__main {
+    background: linear-gradient(90deg, #35a6c8 33.32%, #007295 71.55%),
+      radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    @include responsive(l) {
+      border-radius: 0 !important;
+    }
+  }
+  &__content {
+    @include responsive(el) {
+      flex-direction: column;
+      gap: 3rem;
+    }
+  }
+  &__right {
+    width: 35%;
+    @include responsive(el) {
+      width: 70%;
+    }
+    &-logo {
+      @include responsive(el) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  &__left {
+    width: 60%;
+    @include responsive(el) {
+      width: 70%;
+    }
+    @include responsive(m) {
+      width: 80%;
+    }
+  }
+  &__item {
+    @include responsive(el) {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    &-text {
+      @include responsive(el) {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+  &__image {
+    height: 6rem;
+    width: auto;
+    @include responsive(el) {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

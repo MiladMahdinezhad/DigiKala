@@ -1,0 +1,32 @@
+.story {
+  &__item {
+    width: 8.5rem;
+    height: 8.5rem;
+    @include responsive(m) {
+      width: 10.5rem;
+      height: 10.5rem;
+    }
+    @include responsive(s) {
+      width: 12.5rem;
+      height: 12.5rem;
+    }
+  }
+  &__text {
+    width: 8.5rem;
+    @include line-break();
+  }
+  &__btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    border-radius: 100%;
+    color: $subtitle;
+    border: 1px solid $subtitle;
+    &::after {
+      font-size: $fs-5;
+    }
+    @include responsive(l) {
+      display: none;
+    }
+  }
+}

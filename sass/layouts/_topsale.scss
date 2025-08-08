@@ -1,0 +1,29 @@
+.topsale {
+  &__content {
+    @include responsive(l) {
+      border: none !important;
+    }
+    &-link {
+      @include responsive(l) {
+        position: static !important;
+      }
+    }
+    &-text {
+      @include responsive(l) {
+        justify-content: space-between !important;
+      }
+    }
+  }
+  &__slide {
+    width: 25% !important;
+    @include responsive(el) {
+      width: 33% !important;
+    }
+    @include responsive(l) {
+      width: 50% !important;
+    }
+    @include responsive(m) {
+      width: 100% !important;
+    }
+  }
+}

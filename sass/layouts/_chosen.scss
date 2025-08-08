@@ -1,0 +1,7 @@
+.chosen {
+  &__main {
+    @include responsive(l) {
+      border: none !important;
+    }
+  }
+}

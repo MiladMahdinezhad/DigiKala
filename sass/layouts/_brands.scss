@@ -1,0 +1,19 @@
+.brands {
+  &__items {
+    &-item {
+      cursor: pointer;
+      &-img {
+        max-width: 5rem;
+        @include responsive(m) {
+          max-width: 8rem;
+        }
+      }
+    }
+    &-text {
+      width: 5rem;
+      text-align: center;
+      font-size: $fs-5;
+      font-weight: 200;
+    }
+  }
+}

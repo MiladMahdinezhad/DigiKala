@@ -1,0 +1,56 @@
+.header {
+  box-shadow: 0 -0.2rem 1.2rem rgba(0, 0, 0, 0.3);
+  &__banner {
+    &-pic {
+      @include responsive(l) {
+        min-height: 40px;
+        object-fit: cover;
+      }
+    }
+  }
+  &__content {
+    @include responsive(eel) {
+      width: 100%;
+      margin: auto;
+      padding: 0 1rem;
+    }
+  }
+  &__search {
+    @include responsive(l) {
+      justify-content: center;
+      width: 100%;
+    }
+    &-main {
+      @include responsive(l) {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+    &-input {
+      outline: none;
+      width: 55rem;
+      @include responsive(el) {
+        width: 40rem;
+      }
+      @include responsive(l) {
+        width: 80%;
+      }
+    }
+    &-icon {
+      right: 5rem;
+    }
+    &-line {
+      width: 0.2rem;
+      height: 3rem;
+      background-color: $search;
+    }
+  }
+  &__navbar {
+    &-line {
+      width: 0.2rem;
+      height: 2rem;
+      background-color: $search;
+    }
+  }
+}

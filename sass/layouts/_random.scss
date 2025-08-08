@@ -1,0 +1,29 @@
+.random {
+  &__content {
+    @include responsive(l) {
+      flex-wrap: wrap;
+      border: none !important;
+    }
+    &-item {
+      @include responsive(l) {
+        width: 100% !important;
+        border: none !important;
+      }
+      &-pic {
+        @include responsive(l) {
+          max-height: 80% !important;
+          width: auto !important;
+        }
+        @include responsive(s) {
+          max-height: 45% !important;
+          width: auto !important;
+        }
+      }
+    }
+    &-itemb {
+      @include responsive(l) {
+        border-bottom: 1px solid #eaeaec !important;
+      }
+    }
+  }
+}
