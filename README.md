@@ -16,7 +16,7 @@ This project is a responsive front-end clone of the Digikala website's homepage,
 
     Fully semantic HTML5
 
-    BEM naming convention (if applicable)
+    BEM naming convention
 
     Optimized for performance and accessibility
 
